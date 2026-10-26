@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Блог — DMTV</title>
+  <meta name="description" content="Блог DMTV." />
+  <meta name="theme-color" content="#070707" />
+  <link rel="icon" href="data/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="data/style.css" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="DMTV" />
+  <meta property="og:title" content="Блог — DMTV" />
+  <meta property="og:description" content="Блог DMTV." />
+  <meta property="og:image" content="https://domertv.github.io/data/dmtv-banner.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="DMTV — на главную">
+        <span class="brand-mark">[ DMTV ]</span>
+      </a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="blog.html" data-nav="blog">Блог</a>
+        <a href="archive.html" data-nav="archive">Архив</a>
+        <a href="about.html" data-nav="about">О нас</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <header class="page-head">
+        <h1>Блог</h1>
+        <p class="page-lede">Основной блог DMTV</p>
+      </header>
+
+      <div class="page-body">
+        <div class="filters" data-filters role="group" aria-label="Фильтр по категориям"></div>
+
+        <div class="post-list" data-post-list aria-live="polite">
+          <noscript>
+            <p class="empty-state">Для отображения записей нужен JavaScript.</p>
+          </noscript>
+        </div>
+
+        <p class="archive-note">
+          Старые записи — в <a href="archive.html">архиве</a>.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="footer-logo" href="index.html" aria-label="DMTV — на главную">
+            <span class="brand-mark">[ DMTV ]</span>
+          </a>
+          <p class="footer-tagline">Ginger and more...</p>
+          <p class="footer-note">
+            Независимое творческое объединение DMTV.
+          </p>
+          <nav class="footer-socials" aria-label="Соцсети DMTV">
+            <a class="social-link" href="https://www.youtube.com/@dmming" target="_blank" rel="noopener noreferrer" aria-label="YouTube — канал DMTV" title="YouTube">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3Z" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a class="social-link" href="https://discord.gg/EDKfbXnFD" target="_blank" rel="noopener noreferrer" aria-label="Discord — сообщество DMTV" title="Discord">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.369a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.865-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.056 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.009c.12.099.246.198.373.292a.077.077 0 0 1-.006.127c-.598.349-1.223.646-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028ZM8.02 15.331c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418Zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418Z"/></svg>
+            </a>
+            <a class="social-link" href="https://github.com/DomerTV" target="_blank" rel="noopener noreferrer" aria-label="GitHub — DomerTV" title="GitHub">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+            </a>
+          </nav>
+        </div>
+
+        <nav class="footer-col" aria-label="Навигация в подвале">
+          <h2 class="footer-heading">Навигация</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="archive.html">Архив</a></li>
+            <li><a href="about.html">О нас</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Проекты DMTV">
+          <h2 class="footer-heading">Проекты</h2>
+          <ul class="footer-links">
+            <li><a href="https://www.youtube.com/@dmming" target="_blank" rel="noopener noreferrer">Шоу Джинджера <span class="ext" aria-hidden="true">↗</span></a></li>
+            <li><a href="archive.html">Архив DomerTV</a></li>
+            <li><a href="https://github.com/DomerTV/dmtv_website" target="_blank" rel="noopener noreferrer">Исходники сайта <span class="ext" aria-hidden="true">↗</span></a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h2 class="footer-heading">Связь</h2>
+          <ul class="footer-links">
+            <li><a href="https://www.youtube.com/@dmming" target="_blank" rel="noopener noreferrer">YouTube <span class="ext" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://discord.gg/EDKfbXnFD" target="_blank" rel="noopener noreferrer">Discord <span class="ext" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/DomerTV" target="_blank" rel="noopener noreferrer">GitHub <span class="ext" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/DomerTV/dmtv_website/issues" target="_blank" rel="noopener noreferrer">Предложить идею <span class="ext" aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> DMTV. Ginger and more...</p>
+        <p class="footer-made">Сделано с Джинджером</p>
+        <a class="footer-up" href="#main">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/site.js"></script>
+  <script src="data/posts.js"></script>
+  <script src="data/blog.js"></script>
+</body>
+</html>
